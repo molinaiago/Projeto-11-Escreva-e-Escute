@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escute seu texto!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="border border-purple m-4" contenteditable oninput="setText(event)" id="texto">Seu Texto aqui!</div>
+
+    
+    <button class="btn btn-green" onclick="speak()">Falar</button>
+    <button class="btn2 btn-green" onclick="stop()">Parar</button>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
